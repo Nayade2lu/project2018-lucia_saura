@@ -69,7 +69,7 @@ https://archive.ics.uci.edu/ml/datasets/iris
    First approach in the paper presents the idea of a function that will maximize the difference between the means of the        standard deviations between the two species compared Iris setosa and Iris versicolor (Iris virginica is not taken into        account in this first approach due to be colleted in a different colony)
    The investigation continues with the calculation of the sums of the squares and products of deviations from the means.        Fisher contemplates as well the degrees of freedom.
    
-   Complex math and tables
+   Complex math and tables in getting the distribution of the data in the frequency histogram 
    
    The conclusion that reaches Fisher in his paper is that there is overlap in the I. virginica and I. versicolor so the          diagnosis of this two species cannot be based solely on these four mesurements (eventough these mesurements can lead to a      more complete discrimination)  while I. setosa presents a very diferentiated representation in the frequency histogram. 
    
@@ -86,5 +86,9 @@ https://archive.ics.uci.edu/ml/datasets/iris
      Reference: Google Dictionary
      
      _Frequency histogram_
+     A frequency distribution table is a table that shows how often a data point or a group of data points appears in a given      data set. To make a frequency distribution table, first divide the numbers over which the data ranges into intervals of        equal length. Then count how many data points fall into each interval.
+     
+     References: https://statistics.laerd.com/statistical-guides/understanding-histograms.php
+     http://www.sparknotes.com/math/algebra1/graphingdata/section2/
      
 
