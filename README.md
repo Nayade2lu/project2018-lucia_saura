@@ -1,4 +1,4 @@
-# project2018-lucia_saura
+# Project 2018 Programming and Scripting Lucia Saura
 Project 2018 Lucia Saura
 ![](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png)
 
