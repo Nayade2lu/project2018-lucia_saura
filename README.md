@@ -38,7 +38,7 @@ Project 2018 Lucia Saura
 7. _Conclusion_
 
 
-General Research 
+#### General Research 
 
 First approach: Looking for other projects and general info 
 
