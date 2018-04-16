@@ -16,7 +16,7 @@ Project 2018 Lucia Saura
 
 * _Code plan_ 
 
-1 Iris data set investigation (Python) 
+* Iris data set investigation (Python) 
 
 2 Need 1 code or function x 
 
