@@ -42,16 +42,18 @@
 
 #### General Research 
 
-First approach: Looking for other projects and general info 
+- First approach: Looking for other projects and general info 
 
+References:
 https://archive.ics.uci.edu/ml/datasets/iris  
 
-Difference between petal and sepal 
+- Difference between petal and sepal 
 
 Sepal: Sepals are leaf-like parts that enclose the flower bud 
 
 Petal: Petals are modified leaves that surround the reproductive parts of flowers 
 
+References:
 https://www.hunker.com/13426267/what-is-the-difference-between-sepals-petals 
 
 https://en.wikipedia.org/wiki/Petal 
