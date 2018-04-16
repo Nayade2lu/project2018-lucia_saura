@@ -57,3 +57,12 @@ References:
 https://www.hunker.com/13426267/what-is-the-difference-between-sepals-petals 
 
 https://en.wikipedia.org/wiki/Petal 
+
+###### General Research about the data set
+
+Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).  
+
+http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf 
+
+(complex to understand the formulas and calculations) 
+
