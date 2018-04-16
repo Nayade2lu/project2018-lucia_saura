@@ -18,21 +18,21 @@ Project 2018 Lucia Saura
 
 * Iris data set investigation (Python) 
 
-1. Need 1 code or function x 
+  1. Need 1 code or function x 
 
-2. Need 2 code or function y 
+  2. Need 2 code or function y 
 
-3. Need 3 code or function z 
+  3. Need 3 code or function z 
 
-4. Need 4 /code or function w 
+  4. Need 4 /code or function w 
 
 * Iris data set results 
 
-1. Need of result 1 and code or function related 
+  1. Need of result 1 and code or function related 
 
-2. Need of result 2 and code or function related 
+  2. Need of result 2 and code or function related 
 
-3. Need of result 3 and code or function related 
+  3. Need of result 3 and code or function related 
 
 * Conclusion
 
