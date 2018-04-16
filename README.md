@@ -69,6 +69,8 @@ https://archive.ics.uci.edu/ml/datasets/iris
    First approach in the paper presents the idea of a function that will maximize the difference between the means of the        standard deviations between the two species compared Iris Setosa and Iris Versicolor (Iris Virginica is not taken into        account in this first approach due to be colleted in a different colony)
    The investigation continues with the calculation of the sums of the squares and products of deviations from the means; and    indicates as well the degrees of freedom.
    
+   
+   
      CONTEXT
      What is a taxonomic problem?? 
      Taxonomy is the science of naming, describing and classifying organisms and includes all plants, animals and                  microorganisms of the world.
