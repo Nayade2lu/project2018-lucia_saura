@@ -76,16 +76,16 @@ https://archive.ics.uci.edu/ml/datasets/iris
    
    
      CONTEXT
-     _What is a taxonomic problem?_ 
+     - What is a taxonomic problem?
      Taxonomy is the science of naming, describing and classifying organisms and includes all plants, animals and                  microorganisms of the world.
 
      Reference: https://www.cbd.int/gti/taxonomy.shtml  
      
-     _Degrees of Freedom_
+     - Degrees of Freedom
      Statistics: The number of independent values or quantities which can be assigned to a statistical distribution
      Reference: Google Dictionary
      
-     _Frequency histogram_
+     - Frequency histogram
      A frequency distribution table is a table that shows how often a data point or a group of data points appears in a given      data set. To make a frequency distribution table, first divide the numbers over which the data ranges into intervals of        equal length. Then count how many data points fall into each interval.
      
      References: https://statistics.laerd.com/statistical-guides/understanding-histograms.php
