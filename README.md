@@ -49,20 +49,27 @@ https://archive.ics.uci.edu/ml/datasets/iris
 
 - Difference between petal and sepal 
 
-Sepal: Sepals are leaf-like parts that enclose the flower bud 
+   Sepal: Sepals are leaf-like parts that enclose the flower bud 
 
-Petal: Petals are modified leaves that surround the reproductive parts of flowers 
+   Petal: Petals are modified leaves that surround the reproductive parts of flowers 
 
-References:
-https://www.hunker.com/13426267/what-is-the-difference-between-sepals-petals 
+   References:
+   https://www.hunker.com/13426267/what-is-the-difference-between-sepals-petals 
 
-https://en.wikipedia.org/wiki/Petal 
+   https://en.wikipedia.org/wiki/Petal 
 
 ###### General Research about the data set
+   Initial investigation by Fisher
 
-Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).  
+   Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in      "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).  
 
-http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf 
+   http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf 
 
-(complex to understand the formulas and calculations) 
+   (complex to understand the formulas and calculations) 
+   
+     CONTEXT
+     What is a taxonomic problem?? 
+     Taxonomy is the science of naming, describing and classifying organisms and includes all plants, animals and                  microorganisms of the world.
+
+     https://www.cbd.int/gti/taxonomy.shtml  
 
