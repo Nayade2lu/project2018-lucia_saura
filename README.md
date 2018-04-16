@@ -66,19 +66,25 @@ https://archive.ics.uci.edu/ml/datasets/iris
    http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf 
 
    (complex to understand the formulas and calculations)
-   First approach in the paper presents the idea of a function that will maximize the difference between the means of the        standard deviations between the two species compared Iris Setosa and Iris Versicolor (Iris Virginica is not taken into        account in this first approach due to be colleted in a different colony)
-   The investigation continues with the calculation of the sums of the squares and products of deviations from the means; and    indicates as well the degrees of freedom.
+   First approach in the paper presents the idea of a function that will maximize the difference between the means of the        standard deviations between the two species compared Iris setosa and Iris versicolor (Iris virginica is not taken into        account in this first approach due to be colleted in a different colony)
+   The investigation continues with the calculation of the sums of the squares and products of deviations from the means.        Fisher contemplates as well the degrees of freedom.
+   
+   Complex math and tables
+   
+   The conclusion that reaches Fisher in his paper is that there is overlap in the I. virginica and I. versicolor so the          diagnosis of this two species cannot be based solely on these four mesurements (eventough these mesurements can lead to a      more complete discrimination)  while I. setosa presents a very diferentiated representation in the frequency histogram. 
    
    
    
      CONTEXT
-     What is a taxonomic problem?? 
+     _What is a taxonomic problem?_ 
      Taxonomy is the science of naming, describing and classifying organisms and includes all plants, animals and                  microorganisms of the world.
 
      Reference: https://www.cbd.int/gti/taxonomy.shtml  
      
-     Degrees of Freedom 
+     _Degrees of Freedom_
      Statistics: The number of independent values or quantities which can be assigned to a statistical distribution
      Reference: Google Dictionary
+     
+     _Frequency histogram_
      
 
