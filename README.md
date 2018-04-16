@@ -6,15 +6,15 @@ Project 2018 Lucia Saura
 
 ## Plan: 
 
-* _General Research_
+1.  _General Research_
 
-* _Iris Dataset Projects research_ 
+2.  _Iris Dataset Projects research_ 
 
-* _Ideas of what problem we want to solve_
+3.  _Ideas of what problem we want to solve_
 
-* _Viability of solving in code_
+4.  _Viability of solving in code_
 
-* _Code plan_ 
+5.  _Code plan_ 
 
 * Iris data set investigation (Python) 
 
@@ -34,5 +34,5 @@ Project 2018 Lucia Saura
 
   3. Need of result 3 and code or function related 
 
-* Conclusion
+6. _Conclusion_
 
