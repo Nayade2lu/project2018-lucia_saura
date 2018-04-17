@@ -106,7 +106,9 @@ Hoey makes use of Graphical plots in the form of scatterplot graphs and works wi
 - Another scatterplot graph that compares the sepal width with the classification of flower.
 - A scatterplot graph that compares the petal length with the classification of flower. 
 - And a scatterplot graph that compares the petal width with the classification of flower.
-From these four scatterplots Hoey determines a pattern and creates a possible predictor. 
+From these four scatterplots Hoey determines a pattern and creates a possible predictor.
+
+Second part of Holey papper: Java application to analyze the data
 
 
 
