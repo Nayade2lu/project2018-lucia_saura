@@ -119,6 +119,9 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  Graphical plot project:
  http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
  
+ Machine learning project
+ https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+ 
 
 
 
