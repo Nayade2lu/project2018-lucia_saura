@@ -92,7 +92,7 @@ https://archive.ics.uci.edu/ml/datasets/iris
      http://www.sparknotes.com/math/algebra1/graphingdata/section2/
      
     
-#### Further research on analysis on the Iris data set
+#### Iris data set projects research
 
 Patrick S. Hoey "Statistical Analysis of the Iris Flower Dataset" University of Massachusetts At Lowell
 
