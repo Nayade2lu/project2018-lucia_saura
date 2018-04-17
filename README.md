@@ -109,7 +109,11 @@ Hoey makes use of Graphical plots in the form of scatterplot graphs and works wi
 From these four scatterplots Hoey determines a pattern and creates a possible predictor.
 
 Second part of Holey papper: Java application to analyze the data
- The functions find the mean, mode, median, range, variance, standard deviation, minimum value and maximum values. 
+The functions find the mean, mode, median, range, variance, standard deviation, minimum value and maximum values.
+
+       CONTEXT
+       - Scatter plots: Scatter plots are similar to line graphs. Scatter plots show how much one variable is affected by            another. The relationship between two variables is called their correlation . The closer the data points come when            plotted to making a straight line, the higher the correlation between the two variables, or the stronger the                  relationship.
+       References: http://mste.illinois.edu/courses/ci330ms/youtsey/scatterinfo.html
 
 
 
