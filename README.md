@@ -109,6 +109,7 @@ Hoey makes use of Graphical plots in the form of scatterplot graphs and works wi
 From these four scatterplots Hoey determines a pattern and creates a possible predictor.
 
 Second part of Holey papper: Java application to analyze the data
+ The functions find the mean, mode, median, range, variance, standard deviation, minimum value and maximum values. 
 
 
 
