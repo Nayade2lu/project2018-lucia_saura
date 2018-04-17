@@ -91,4 +91,22 @@ https://archive.ics.uci.edu/ml/datasets/iris
      References: https://statistics.laerd.com/statistical-guides/understanding-histograms.php
      http://www.sparknotes.com/math/algebra1/graphingdata/section2/
      
+    
+#### Further research on analysis on the Iris data set
+
+Patrick S. Hoey "Statistical Analysis of the Iris Flower Dataset" University of Massachusetts At Lowell
+
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+
+In the papper Patrick S. Hoey analyses briefly Fisher's work and describes how to discriminate data to identify the different type of Iris flowers.
+The goal of his disciminant analysis is to produce a simple function that, given the four measurements, will
+classify a flower correctly.
+Hoey makes use of Graphical plots in the form of scatterplot graphs and works with the data to obtain 
+- A scatterplot graph that compares the sepal length with the classification of flower.
+- Another scatterplot graph that compares the sepal width with the classification of flower.
+- A scatterplot graph that compares the petal length with the classification of flower. 
+- And a scatterplot graph that compares the petal width with the classification of flower.
+From these four scatterplots Hoey determines a pattern and creates a possible predictor. 
+
+
 
