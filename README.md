@@ -118,6 +118,7 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  #### Machine learning project
  Jason Brownlee on June 10, 2016
  https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+ 
  This projects guides trough a series of steps on building a simple Machine Learning project using Python.
  The post covers the basic steps to accomplish the task and introduces stepby step the code that will accomplish the machine    learning project.
  Recommendation of installing SciPy platform and libraries
