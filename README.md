@@ -114,13 +114,39 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
        CONTEXT
        - Scatter plots: Scatter plots are similar to line graphs. Scatter plots show how much one variable is affected by            another. The relationship between two variables is called their correlation . The closer the data points come when            plotted to making a straight line, the higher the correlation between the two variables, or the stronger the                  relationship.
        References: http://mste.illinois.edu/courses/ci330ms/youtsey/scatterinfo.html
+ 
+ #### Machine learning project
+ Jason Brownlee on June 10, 2016
+ https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+ This projects guides trough a series of steps on building a simple Machine Learning project using Python.
+ The post covers the basic steps to accomplish the task and introduces stepby step the code that will accomplish the machine    learning project.
+ Recommendation of installing SciPy platform and libraries
+   _Main steps in the project:_
+    - Loading The Data
+      - Importing libraries
+      - Loading Dataset
+    - Summarizing the Dataset
+      - Dimensions of Dataset
+      - Peek at the Data
+      - Statistical Summary
+      - Class Distribution
+    - Data Visualization
+      - Univariate Plots
+      - Multivariate Plots
+    - Evaluation of some Algorithms
+      - Creating a Validation Dataset
+      - Test Harness
+      - Build Models
+      - Select Best Model
+    - Making Predictions
        
  #### More projects reviewed
  Graphical plot project:
  http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
  
- Machine learning project
- https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+ 
+      
+      
  
 
 
