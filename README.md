@@ -121,24 +121,30 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  This projects guides trough a series of steps on building a simple Machine Learning project using Python.
  The post covers the basic steps to accomplish the task and introduces stepby step the code that will accomplish the machine    learning project.
  Recommendation of installing SciPy platform and libraries
+   
    _Main steps in the project:_
-    - Loading The Data
+    
+   - Loading The Data
       - Importing libraries
       - Loading Dataset
-    - Summarizing the Dataset
+    
+   - Summarizing the Dataset
       - Dimensions of Dataset
       - Peek at the Data
       - Statistical Summary
       - Class Distribution
-    - Data Visualization
+   
+   - Data Visualization
       - Univariate Plots
       - Multivariate Plots
-    - Evaluation of some Algorithms
+    
+   - Evaluation of some Algorithms
       - Creating a Validation Dataset
       - Test Harness
       - Build Models
       - Select Best Model
-    - Making Predictions
+    
+   - Making Predictions
        
  #### More projects reviewed
  Graphical plot project:
