@@ -151,6 +151,9 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  Graphical plot project:
  http://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
  
+ Visualizations:
+ https://www.kaggle.com/benhamner/python-data-visualizations
+ 
  
       
       
