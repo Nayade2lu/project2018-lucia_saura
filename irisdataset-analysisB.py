@@ -11,7 +11,7 @@ import matplotlib.pyplot as pl
 pl.hist(firstcol)
 pl.show()
 
-import numpy
+
 #Read virginica data file into array
 data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
 
@@ -21,7 +21,7 @@ import matplotlib.pyplot as pl
 pl.hist(firstcol)
 pl.show()
 
-import numpy
+
 #Read versicolor data file into array
 data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
 
