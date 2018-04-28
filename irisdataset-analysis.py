@@ -43,3 +43,43 @@ petalwidthtsetosa = data[:,3]
 meanpetalwidthtsetosa = numpy.mean(data[:,3])
 print("Setosa petal width:", meanpetalwidthtsetosa)
 
+
+#--------------------Calculate the mean of each Versicolor parameter-----------------
+
+#Calculate Versicolor sepal length mean
+
+import numpy
+data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
+#selecting the first column of the data
+sepallenghtversicolor = data[:,0]
+#calculating the mean of the first column
+meansepallengthversicolor = numpy.mean(data[:,0])
+print("Versicolor sepal length mean:", meansepallengthversicolor)
+
+#Calculate Versicolor sepal width mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
+#selecting the second column of the data
+sepalwidthtversicolor = data[:,1]
+#calculating the mean of the second column
+meansepalwidthversicolor = numpy.mean(data[:,1])
+print("Versicolor sepal width:", meansepalwidthversicolor)
+
+#Calculate Versicolor petal length mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
+#selecting the third column of the data
+petallengthtversicolor = data[:,2]
+#calculating the mean of the third column
+meanpetallengthversicolor = numpy.mean(data[:,2])
+print("Versicolor petal length:", meanpetallengthversicolor)
+
+#Calculate Versicolor petal width mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
+#selecting the fourth column of the data
+petalwidthtversicolor = data[:,3]
+#calculating the mean of the fourth column
+meanpetalwidthtversicolor = numpy.mean(data[:,3])
+print("Versicolor petal width:", meanpetalwidthtversicolor)
+
