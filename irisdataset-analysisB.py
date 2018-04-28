@@ -1,6 +1,32 @@
 #Lucia Saura 28/04/2018
-# approach datasets library
+# approach matplotlib histogram
 
-import datasets
-str(iris)
-subset(iris, Species == "setosa")[1:5,]
+import numpy
+#Read setosa data file into array
+data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
+
+firstcol = data[:,0]
+
+import matplotlib.pyplot as pl
+pl.hist(firstcol)
+pl.show()
+
+import numpy
+#Read virginica data file into array
+data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
+
+firstcol = data[:,0]
+
+import matplotlib.pyplot as pl
+pl.hist(firstcol)
+pl.show()
+
+import numpy
+#Read versicolor data file into array
+data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
+
+firstcol = data[:,0]
+
+import matplotlib.pyplot as pl
+pl.hist(firstcol)
+pl.show()
