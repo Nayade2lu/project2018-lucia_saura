@@ -264,6 +264,12 @@ Histograms:
 https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html;jsessionid=ff05bc250d1a965089cfe3ac40b2
 
 
+Notes: 
+1. Attempt to use library Datasets failed
+   Error:
+   ModuleNotFoundError: No module named 'datasets'
+
+
  
  
       
