@@ -19,13 +19,13 @@
 
   * Iris data set investigation (Python) 
 
-    1. Need 1 code or function x 
+    1. Need section of code 1: Numpy library
 
-    2. Need 2 code or function y 
+    2. Need section of code 2: Import the data from the dataset
 
-    3. Need 3 code or function z 
+    3. Need section of code 3: Select the data from 1 column
 
-    4. Need 4 /code or function w 
+    4. Need section of code 4: Get the mean using numpy
 
   * Iris data set results 
 
@@ -153,6 +153,55 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  
  Visualizations:
  https://www.kaggle.com/benhamner/python-data-visualizations
+ 
+ 
+ ## Ideas of what problem we want to solve
+ Idea 1: Obtain the minimum and maximum of each flower of each column
+ Idea 2: Obtain the mean of each parameter of each flower independently to categorise the flowers attending to that
+ Idea 3: Graphics to see tendences
+ Idea 4: Machine learning project
+ 
+ #### Selected idea fr the project: Obtain the mean of each parameter of each flower 
+Attending to the Iris data set, the outcome of this Python program is to find the mean of each column of each flower. The goal is to identify if the difference is relevant to help in clasifying the flowers based on the mean of each column.
+
+Altough might not be related with the main goal of the project. I would try to integrate also some graphics to experiment with with matplotlib and pyplot.
+ 
+## Viavility
+The probability of achieving the project with Python is high due to the resources in the course, specially Topic 8: Calculating with numpy.
+
+## Code plan
+
+ ### Iris data set investigation (Python) 
+
+    1. Need section of code 1: Numpy library
+
+    2. Need section of code 2: Import the data from the dataset
+
+    3. Need section of code 3: Select the data from 1 column
+
+    4. Need section of code 4: Get the mean using numpy
+
+Steps:
+1. Reasearch and copy the Iris data set
+2. Create a csv with the data
+3. Divide the data attending to the different type of flowers (removing the data from the other flowers)
+4. Import numpy
+5. read the first flower data set into array (Setosa)
+6. Obtain the data from the first column: Setosa sepal length
+7. Calculte the mean 
+
+8. Repeat the previous steps with second column of the data: Setosa sepal width
+9. Repeat the previous steps with third column of the data: Setosa petal length
+10. Repeat the previous steps with fourth column: Setosa spetal width
+
+11. Repeat all the previous steps for Versicolor
+12. Repeat all the previus steps for Virginica
+
+ *initiate ipython and try the commands in the terminal first, then copy the code into the python file
+
+
+
+
  
  
       
