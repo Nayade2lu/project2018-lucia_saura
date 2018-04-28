@@ -146,6 +146,26 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
       - Select Best Model
     
    - Making Predictions
+   
+ ### Linear discriminant model to classify the species:
+ Rafael Santos
+ http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html
+ 
+ Library: datasets
+ Models
+ Summary function
+ Boxplot
+ Histogram
+ Violin plots
+ Correlations between Variables
+ Scatterplot matrices
+ 
+ Library: MASS
+ Parallel coordinate plot
+ 
+ Library: C50
+ Decission Trees
+ 
        
  #### More projects reviewed
  Graphical plot project:
@@ -205,6 +225,9 @@ Steps to solve Iris data set project:
 
 
 More references:
+Histograms:
+https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html;jsessionid=ff05bc250d1a965089cfe3ac40b2
+
 
  
  
