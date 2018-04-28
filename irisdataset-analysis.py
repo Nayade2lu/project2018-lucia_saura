@@ -12,4 +12,3 @@ sepallenghtsetosa = data[:,0]
 #calculating the mean of the first column
 meansepallengthsetosa = numpy.mean(data[:,0])
 #Code tested working in iPhyton
-
