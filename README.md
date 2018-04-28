@@ -223,6 +223,30 @@ Steps to solve Iris data set project:
  *initiate ipython and try the commands in the terminal first, then copy the code into the python file
 
 
+#### Results from the data analysis of the mean of each column
+Setosa sepal length mean: 5.006
+Setosa sepal width: 3.418
+Setosa petal length: 1.464
+Setosa petal width: 0.244
+
+Versicolor sepal length mean: 5.936
+Versicolor sepal width: 2.77
+Versicolor petal length: 4.26
+Versicolor petal width: 1.326
+
+Virginica sepal length mean: 6.588
+Virginica sepal width: 2.974
+Virginica petal length: 5.552
+Virginica petal width: 2.026
+
+From this results we can extract that setosa could be the variety with more diferentiate parameters specially on the petal length and width. The petal width and length results could be used as an orientative number to categorize the Iris setosa.
+
+Versicolor and Virginica have similar mean for the sepal width. Except from the width, the Iris Virginica is higher in sepal length, petl length and petal width. These three measurements could help to diferentiate Virginica from Versicolor.
+
+Despite the previous analysis, the mean should be taken as an orientative parameter not as an absolute one in order to categorise the three varieties.
+
+
+
 
 More references:
 Histograms:
