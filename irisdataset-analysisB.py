@@ -30,3 +30,4 @@ firstcol = data[:,0]
 import matplotlib.pyplot as pl
 pl.hist(firstcol)
 pl.show()
+
