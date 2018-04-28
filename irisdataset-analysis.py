@@ -5,3 +5,4 @@
 #Calculate the mean of each Setosa parameter
 import numpy
 data = numpy.genfromtxt('iris-data-set.csv', delimiter=',')
+data[:,0]
