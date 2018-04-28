@@ -6,4 +6,4 @@
 import numpy
 data = numpy.genfromtxt('iris-data-set.csv', delimiter=',')
 sepallenghtsetosa = data[:,0]
-numpy.mean(data[:,0])
+meansepallengthsetosa = numpy.mean(data[:,0])
