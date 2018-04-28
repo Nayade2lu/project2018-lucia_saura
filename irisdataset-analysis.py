@@ -29,8 +29,17 @@ print("Setosa sepal width:", meansepalwidthsetosa)
 import numpy
 data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
 #selecting the third column of the data
-sepalwidthtsetosa = data[:,2]
+petallengthtsetosa = data[:,2]
 #calculating the mean of the third column
 meanpetallengthsetosa = numpy.mean(data[:,2])
 print("Setosa petal length:", meanpetallengthsetosa)
+
+#Calculate Setosa petal width mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
+#selecting the fourth column of the data
+petalwidthtsetosa = data[:,3]
+#calculating the mean of the fourth column
+meanpetalwidthtsetosa = numpy.mean(data[:,3])
+print("Setosa petal width:", meanpetalwidthtsetosa)
 
