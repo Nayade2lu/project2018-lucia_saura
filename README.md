@@ -173,15 +173,18 @@ The probability of achieving the project with Python is high due to the resource
 
  ### Iris data set investigation (Python) 
 
-    1. Need section of code 1: Numpy library
+   1. Need section of code 1: Numpy library
 
-    2. Need section of code 2: Import the data from the dataset
+   2. Need section of code 2: Import the data from the dataset
 
-    3. Need section of code 3: Select the data from 1 column
+   3. Need section of code 3: Select the data from 1 column
 
-    4. Need section of code 4: Get the mean using numpy
+   4. Need section of code 4: Get the mean using numpy
 
-Steps:
+##### Numpy Library
+
+
+Steps to solve Iris data set project:
 1. Reasearch and copy the Iris data set
 2. Create a csv with the data
 3. Divide the data attending to the different type of flowers (removing the data from the other flowers)
@@ -201,6 +204,7 @@ Steps:
 
 
 
+More references:
 
  
  
