@@ -16,14 +16,21 @@ meansepallengthsetosa = numpy.mean(data[:,0])
 #Code tested working in iPhyton
 print("Setosa sepal length mean:", meansepallengthsetosa)
 
-#Calcualate Setosa sepal width mean
-#Improting the numpy library
+#Calculate Setosa sepal width mean
 import numpy
-#Read setosa data file into array
 data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
 #selecting the second column of the data
 sepalwidthtsetosa = data[:,1]
 #calculating the mean of the second column
 meansepalwidthsetosa = numpy.mean(data[:,1])
 print("Setosa sepal width:", meansepalwidthsetosa)
+
+#Calculate Setosa petal length mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
+#selecting the third column of the data
+sepalwidthtsetosa = data[:,2]
+#calculating the mean of the third column
+meanpetallengthsetosa = numpy.mean(data[:,2])
+print("Setosa petal length:", meanpetallengthsetosa)
 
