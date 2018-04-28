@@ -83,3 +83,20 @@ petalwidthtversicolor = data[:,3]
 meanpetalwidthtversicolor = numpy.mean(data[:,3])
 print("Versicolor petal width:", meanpetalwidthtversicolor)
 
+
+
+#--------------------Calculate the mean of each Virginica parameter-----------------
+
+#Calculate Virginica sepal length mean
+
+import numpy
+data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
+#selecting the first column of the data
+sepallenvirginica = data[:,0]
+#calculating the mean of the first column
+meansepallenvirginica = numpy.mean(data[:,0])
+print("Versicolor sepal length mean:", meansepallenvirginica)
+
+
+
+
