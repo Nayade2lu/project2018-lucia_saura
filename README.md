@@ -32,6 +32,8 @@
     1. Get the mean using numpy
 
     2. Print function 
+    
+  * Optimization of the code
 
 6. _Analysis of results_
 
@@ -227,6 +229,11 @@ Steps to solve Iris data set project:
   1. Get the mean using numpy
 
   2. Print function 
+  
+##### Optimization of the code
+- Removed duplications importing the numpy library
+- Removed duplications reading files into array
+Approximately 20 lines of code removed
 
 ##### Results
 
