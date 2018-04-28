@@ -95,7 +95,36 @@ data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
 sepallenvirginica = data[:,0]
 #calculating the mean of the first column
 meansepallenvirginica = numpy.mean(data[:,0])
-print("Versicolor sepal length mean:", meansepallenvirginica)
+print("Virginica sepal length mean:", meansepallenvirginica)
+
+#Calculate Virginica sepal width mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
+#selecting the second column of the data
+sepalwidthtvirginica = data[:,1]
+#calculating the mean of the second column
+meansepalwidthvirginica = numpy.mean(data[:,1])
+print("Virginica sepal width:", meansepalwidthvirginica)
+
+#Calculate Virginica petal length mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
+#selecting the third column of the data
+petallengthtvirginica = data[:,2]
+#calculating the mean of the third column
+meanpetallengthvirginica = numpy.mean(data[:,2])
+print("Virginica petal length:", meanpetallengthvirginica)
+
+#Calculate Virginica petal width mean
+import numpy
+data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
+#selecting the fourth column of the data
+petalwidthtvirginica = data[:,3]
+#calculating the mean of the fourth column
+meanpetalwidthtvirginica = numpy.mean(data[:,3])
+print("Virginica petal width:", meanpetalwidthtvirginica)
+
+
 
 
 
