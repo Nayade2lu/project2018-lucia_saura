@@ -32,8 +32,19 @@ import numpy
 #Read setosa data file into array
 data = numpy.genfromtxt('iris-data-set.csv', delimiter=',')
 #selecting the third column of the data
-petalwidthtsetosa = data[:,3]
+petalwidthtsetosa = data[:,2]
 #calculating the mean of the third column
+meanpetalwidthsetosa = numpy.mean(data[:,2])
+#Code tested working in iPhyton
+
+#Calcualate Setosa petal legth mean
+#Improting the numpy library
+import numpy
+#Read setosa data file into array
+data = numpy.genfromtxt('iris-data-set.csv', delimiter=',')
+#selecting the fourth column of the data
+petalwidthtsetosa = data[:,3]
+#calculating the mean of the fourth column
 meanpetalwidthsetosa = numpy.mean(data[:,3])
 #Code tested working in iPhyton
 
