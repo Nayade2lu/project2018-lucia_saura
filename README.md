@@ -181,7 +181,7 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  Idea 3: Graphics to see tendences
  Idea 4: Machine learning project
  
- #### Selected idea fr the project: Obtain the mean of each parameter of each flower 
+ #### Selected idea for the project: Obtain the mean of each parameter of each flower 
 Attending to the Iris data set, the outcome of this Python program is to find the mean of each column of each flower. The goal is to identify if the difference is relevant to help in clasifying the flowers based on the mean of each column.
 
 Altough might not be related with the main goal of the project. I would try to integrate also some graphics to experiment with with matplotlib and pyplot.
@@ -251,6 +251,10 @@ Virginica sepal length mean: 6.588
 Virginica sepal width: 2.974
 Virginica petal length: 5.552
 Virginica petal width: 2.026
+
+##### Graphics to see tendences
+Histograms from the 3 parametersof the three flowers
+
 
 ## Analysis of results
 
