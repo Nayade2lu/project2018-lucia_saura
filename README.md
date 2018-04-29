@@ -359,11 +359,13 @@ https://www.scipy.org/
 1. Attempt to use library Datasets failed
 
    Error:
+   
    ModuleNotFoundError: No module named 'datasets'
    
 2. Attempt to customize color of the histograms failed
 
    Error: 
+   
    AttributeError: 'NoneType' object has no attribute 'seq'
 
 
