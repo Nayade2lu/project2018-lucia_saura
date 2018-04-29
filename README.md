@@ -272,6 +272,15 @@ Setosa sepal width       |  Versicolor sepal width  |  Virginica sepal width
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Setosa sepal width](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-sep-width-hist.png)  |  ![Versicolor sepal width](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-sep-width-hist.png)|  ![Virginica sepal width](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-sep-width-hist.png)
 
+In terms of sepal width, the three varieties are in a very similar range. The division of the flowers attendig to this parameter would be highly difficult.
+
+Setosa petal length        |  Versicolor petal length  |  Virginica petal length
+:-------------------------:|:-------------------------:|:-------------------------:
+![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-length-hist.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-length-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-lenght-hist.png)
+
+
+
+
 ## Conclusion
 Despite the previous analysis, the mean should be taken as an orientative parameter not as an absolute one in order to categorise the three varieties.
 
