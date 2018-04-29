@@ -5,7 +5,7 @@
 
 # IRIS DATASET
 Items in the repository:
- - README: current file. Analysis development
+ - README: Research analysis and documentation (current file)
  - irisdataset-analysis.py: Python file to calculate the mean of each parameter of each specie
  - irisdataset-analysisB.py : Python file to obtain histograms
  - png files: histograms images to link in the current README
