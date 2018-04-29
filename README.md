@@ -283,7 +283,7 @@ Thanks to the histograms a relevant difference can be apreciated between the thr
 
 Setosa petal width        |  Versicolor petal width  |  Virginica petal width
 :-------------------------:|:-------------------------:|:-------------------------:
-![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-width.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-width-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-width-hist.png)
+![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-width-hist.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-width-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-width-hist.png)
 
 
 ## Conclusion
