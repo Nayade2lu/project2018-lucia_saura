@@ -174,6 +174,8 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  Visualizations:
  https://www.kaggle.com/benhamner/python-data-visualizations
  
+ Machine learning:
+ https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
  
  ## Ideas of what problem we want to solve
  Idea 1: Obtain the minimum and maximum of each flower of each column
@@ -201,9 +203,17 @@ The probability of achieving the project with Python is high due to the resource
 
 
 ##### Numpy Library
+Reference: http://www.numpy.org/
+NumPy is the fundamental package for scientific computing with Python. It contains among other things:
+
+a powerful N-dimensional array object
+sophisticated (broadcasting) functions
+tools for integrating C/C++ and Fortran code
+useful linear algebra, Fourier transform, and random number capabilities
+Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
 
 
-Steps to solve Iris data set project:
+#### Steps to solve Iris data set project:
 1. Reasearch and copy the Iris data set
 2. Create a csv with the data
 3. Divide the data attending to the different type of flowers (removing the data from the other flowers)
@@ -237,20 +247,20 @@ Approximately 20 lines of code removed
 
 ##### Results
 
-Setosa sepal length mean: 5.006
-Setosa sepal width: 3.418
-Setosa petal length: 1.464
-Setosa petal width: 0.244
+- Setosa sepal length mean: 5.006
+- Setosa sepal width: 3.418
+- Setosa petal length: 1.464
+- Setosa petal width: 0.244
 
-Versicolor sepal length mean: 5.936
-Versicolor sepal width: 2.77
-Versicolor petal length: 4.26
-Versicolor petal width: 1.326
+- Versicolor sepal length mean: 5.936
+- Versicolor sepal width: 2.77
+- Versicolor petal length: 4.26
+- Versicolor petal width: 1.326
 
-Virginica sepal length mean: 6.588
-Virginica sepal width: 2.974
-Virginica petal length: 5.552
-Virginica petal width: 2.026
+- Virginica sepal length mean: 6.588
+- Virginica sepal width: 2.974
+- Virginica petal length: 5.552
+- Virginica petal width: 2.026
 
 
 ## Analysis of results
@@ -285,24 +295,59 @@ Setosa petal width        |  Versicolor petal width  |  Virginica petal width
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-width-hist.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-width-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-width-hist.png)
 
+From this last measurement, the petal width we can extract annother important conclusion, setosa is the smallest one with the values between 0,1 and 0,6, Versicolor would be the medium one with values between 1 and 1,8 and Virginica would be the bigger one with most of the values between 1,7 and 2,5.
 
 ## Conclusion
-Despite the previous analysis, the mean should be taken as an orientative parameter not as an absolute one in order to categorise the three varieties.
+To conclude the analysis, from the histograms and the mean we can extract that a differentiation between the three species can be made due to the mean results of the histograms and specially because of the histograms.
 
-The Iris data set can receive multiple treatments to show models, tendences or predictabilities. The mean approach is a basic study of the data set using Python code.
+From the mean analysis and the histograms, setosa would be the specie easier to categorise as it has very differentiative samller petal lenght and width than the other species. Versiolor follows the scale attending to petal size, as it is the specie with medium values in both the sepal legnth and width. And finally, virginica is the specie with bigger values for both petal length and width.The sepals are similar in size, so it would be more relevant o identify the species attending to the petal than to the sepal.
 
+To sum up, the petal width can be taken as a valuable reference to diferentiate the specie valuable: a specie could be clasified as setosa if the measure is between 0,1 and 0,6 cm, versicolor between 1 and 1,8 and virginica between 1,7 and 2,5. If the number would be 1,7 or 1,8 the petal width could help in the clasifiction: 3,8 - 5 virginica; 4,7 - 6,3 versicolor. Still if the second mesurement were between 4,7 and 5, the differentiation between this two species is highly complex as the sepal results are very smilar between both. 
 
+## Code conclusion
+Finally as a code conclusion of the analysis. It has been extremely useful to accomplish this analysis the numpy library and the matplotlib library. Numpy library because of the function getfromtxt function that allows to extract a column of the data and matplotlib because of the histogram function that shows the data graphicaly organized in bins.
 
 
 More references:
 Histograms:
 https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html;jsessionid=ff05bc250d1a965089cfe3ac40b2
+Histograms color:
+https://stackoverflow.com/questions/23061657/plot-histogram-with-colors-taken-from-colormap
+
+Histograms color:
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.hist.html#matplotlib.pyplot.hist
+
+Attribute error:
+https://github.com/matplotlib/matplotlib/issues/10147
+
+Histogram color:
+https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html
+
+Scatter plot: 
+https://matplotlib.org/gallery/shapes_and_collections/scatter.html
+
+Modules:
+https://docs.python.org/3/tutorial/modules.html
+
+Interactive mode:
+https://stackoverflow.com/questions/39828744/visual-studio-code-interactive-python-console
+https://en.wikibooks.org/wiki/Python_Programming/Interactive_mode
+
+Clone a github repository in the computer:
+http://lemoncode.net/lemoncode-blog/2017/12/12/git-y-visual-studio-code
+
+SciPy:
+https://www.scipy.org/
 
 
 Notes: 
 1. Attempt to use library Datasets failed
    Error:
    ModuleNotFoundError: No module named 'datasets'
+   
+2. Attempt to customize color of the histograms failed
+   Error: 
+   AttributeError: 'NoneType' object has no attribute 'seq'
 
 
  
