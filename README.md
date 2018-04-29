@@ -278,7 +278,12 @@ Setosa petal length        |  Versicolor petal length  |  Virginica petal length
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-length.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-length-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-length-hist.png)
 
+Regarding the petal length, setosa has again the lowest numbers comprised between 1 and 1,9. Most of versicolor samples are between 3,8 and 5. while most of virginica ones starts around 4,7 to 6,3. 
+Thanks to the histograms a relevant difference can be apreciated between the three species. This difference in the petal length could help in the categorization of the Iris varieties.
 
+Setosa petal width        |  Versicolor petal width  |  Virginica petal width
+:-------------------------:|:-------------------------:|:-------------------------:
+![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-width.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-width-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-width-hist.png)
 
 
 ## Conclusion
