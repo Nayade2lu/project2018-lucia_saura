@@ -125,3 +125,12 @@ foucolm = data[:,3]
 import matplotlib.pyplot as pl
 pl.hist(foucolm)
 pl.show()
+
+#Read versicolor data file into array
+data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
+# show data from petal width versicolor
+foucolm = data[:,3]
+
+import matplotlib.pyplot as pl
+pl.hist(foucolm)
+pl.show()
