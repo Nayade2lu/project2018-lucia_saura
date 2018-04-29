@@ -5,24 +5,24 @@
 
 # IRIS DATASET
 Items in the repository:
- - README: Research analysis and documentation (current file)
+ - README: Research, analysis and documentation (current file)
  - irisdataset-analysis.py: Python file to calculate the mean of each parameter of each specie
  - irisdataset-analysisB.py : Python file to obtain histograms
  - png files: histograms images to link in the current README
 
-## Plan: 
+# Plan: 
 
 1.  _General Research_
 
 2.  _Iris Dataset Projects research_ 
 
-3.  _Ideas of what problem we want to solve_
+3.  _Ideas on the problem to solve_
 
 4.  _Viability of solving in code_
 
 5.  _Code plan_ 
 
-  * Iris data set investigation (Python) 
+  * Iris data set analysis (Python) 
 
     1. Need section of code 1: Numpy library
 
@@ -45,7 +45,7 @@ Items in the repository:
 7. _Conclusion_
 
 
-#### General Research 
+## General Research 
 
 - First approach: Looking for other projects and general info 
 
@@ -54,16 +54,16 @@ https://archive.ics.uci.edu/ml/datasets/iris
 
 - Difference between petal and sepal 
 
-   Sepal: Sepals are leaf-like parts that enclose the flower bud 
+      Sepal: Sepals are leaf-like parts that enclose the flower bud 
 
-   Petal: Petals are modified leaves that surround the reproductive parts of flowers 
+      Petal: Petals are modified leaves that surround the reproductive parts of flowers 
 
-   References:
-   https://www.hunker.com/13426267/what-is-the-difference-between-sepals-petals 
+      References:
+      https://www.hunker.com/13426267/what-is-the-difference-between-sepals-petals 
 
-   https://en.wikipedia.org/wiki/Petal 
+      https://en.wikipedia.org/wiki/Petal 
 
-###### General Research about the data set
+### General Research about the data set
    Initial investigation by Fisher
 
    Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in      "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).  
@@ -71,18 +71,20 @@ https://archive.ics.uci.edu/ml/datasets/iris
    http://rcs.chemometrics.ru/Tutorials/classification/Fisher.pdf 
 
    (complex to understand the formulas and calculations)
-   First approach in the paper presents the idea of a function that will maximize the difference between the means of the        standard deviations between the two species compared Iris setosa and Iris versicolor (Iris virginica is not taken into        account in this first approach due to be collected in a different colony)
+   
+   First approach in the paper presents the idea of a function that will maximize the difference between the means of the        standard deviations between the two species compared Iris setosa and Iris versicolor (Iris virginica is not taken into        account in this first approach due to be collected in a different colony).
+   
    The investigation continues with the calculation of the sums of the squares and products of deviations from the means.        Fisher contemplates as well the degrees of freedom.
    
-   Complex math and tables in getting the distribution of the data in the frequency histogram 
+   The paper shows as well, complex math and tables to get the distribution of the data in the frequency histograms. 
    
-   The conclusion that reaches Fisher in his paper is that there is overlap in the I. virginica and I. versicolor so the          diagnosis of this two species cannot be based solely on these four measurements (even though these measurements can lead to a      more complete discrimination)  while I. setosa presents a very differentiated representation in the frequency histogram. 
+   The conclusion that reaches Fisher in his paper is that there is overlap in the I. virginica and I. versicolor so the          diagnosis of this two species cannot be based solely on these four measurements (even though these measurements can lead to    a more complete discrimination)  while I. setosa presents a very differentiated representation in the frequency histogram. 
    
    
    
      CONTEXT
      - What is a taxonomic problem?
-     Taxonomy is the science of naming, describing and classifying organisms and includes all plants, animals and                  microorganisms of the world.
+     Taxonomy is the science of naming, describing and classifying organisms and includes all plants,animals and microorganisms of the world.
 
      Reference: https://www.cbd.int/gti/taxonomy.shtml  
      
@@ -91,13 +93,13 @@ https://archive.ics.uci.edu/ml/datasets/iris
      Reference: Google Dictionary
      
      - Frequency histogram
-     A frequency distribution table is a table that shows how often a data point or a group of data points appears in a given      data set. To make a frequency distribution table, first divide the numbers over which the data ranges into intervals of        equal length. Then count how many data points fall into each interval.
+     A frequency distribution table is a table that shows how often a data point or a group of data points appears in a given data set. To make a frequency distribution table, first divide the numbers over which the data ranges into intervals of        equal length. Then count how many data points fall into each interval.
      
      References: https://statistics.laerd.com/statistical-guides/understanding-histograms.php
      http://www.sparknotes.com/math/algebra1/graphingdata/section2/
      
     
-#### Iris data set projects research
+## Iris data set projects research
 
 Patrick S. Hoey "Statistical Analysis of the Iris Flower Dataset" University of Massachusetts At Lowell
 
@@ -111,14 +113,16 @@ Hoey makes use of Graphical plots in the form of scatterplot graphs and works wi
 - Another scatterplot graph that compares the sepal width with the classification of flower.
 - A scatterplot graph that compares the petal length with the classification of flower. 
 - And a scatterplot graph that compares the petal width with the classification of flower.
+
 From these four scatterplots Hoey determines a pattern and creates a possible predictor.
 
 Second part of Holey paper: Java application to analyze the data
+
 The functions find the mean, mode, median, range, variance, standard deviation, minimum value and maximum values.
 
        CONTEXT
-       - Scatter plots: Scatter plots are similar to line graphs. Scatter plots show how much one variable is affected by            another. The relationship between two variables is called their correlation . The closer the data points come when            plotted to making a straight line, the higher the correlation between the two variables, or the stronger the                  relationship.
-       References: http://mste.illinois.edu/courses/ci330ms/youtsey/scatterinfo.html
+       - Scatter plots: Scatter plots are similar to line graphs. Scatter plots show how much one variable is affected by  another. The relationship between two variables is called their correlation . The closer the data points come when            plotted to making a straight line, the higher the correlation between the two variables, or the stronger the                  relationship.
+    References: http://mste.illinois.edu/courses/ci330ms/youtsey/scatterinfo.html
  
  #### Machine learning project
  Jason Brownlee on June 10, 2016
@@ -152,7 +156,7 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
     
    - Making Predictions
    
- ### Linear discriminant model to classify the species:
+ #### Linear discriminant model to classify the species:
  Rafael Santos
  http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html
  
@@ -182,46 +186,40 @@ The functions find the mean, mode, median, range, variance, standard deviation, 
  Machine learning:
  https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset
  
- ## Ideas of what problem we want to solve
+ 
+ 
+ ## Ideas on the problem to solve
  Idea 1: Obtain the minimum and maximum of each flower of each column
- Idea 2: Obtain the mean of each parameter of each flower independently to categorise the flowers attending to that
+ 
+ Idea 2: Obtain the mean of each parameter of each flower independently to categorise the flowers
+ 
  Idea 3: Graphics to see tendences
+ 
  Idea 4: Machine learning project
  
- #### Selected idea for the project: Obtain the mean of each parameter of each flower 
+ #### Selected idea for the project: Obtain the mean of each parameter of each flower and graphics to see tendences
 Attending to the Iris data set, the outcome of this Python program is to find the mean of each column of each flower. The goal is to identify if the difference is relevant to help in classifying the flowers based on the mean of each column.
 
 Although might not be related with the main goal of the project. I would try to integrate also some graphics to experiment with with matplotlib and pyplot.
  
 ## Viability
-The probability of achieving the project with Python is high due to the resources in the course, specially Topic 8: Calculating with numpy.
+The probability of achieving the project with Python is high due to the resources in the course, specially Topic 8: Calculating with numpy and matplotlib.
 
 ## Code plan
 
- ### Iris data set investigation (Python) 
+ ### Iris data set analysis (Python) 
 
-   1. Need section of code 1: Numpy library
+   1. Need section of code 1: First, import Numpy library
 
-   2. Need section of code 2: Import the data from the dataset
+   2. Need section of code 2: Secondly, import the data from the dataset (getfromtxt function)
 
-   3. Need section of code 3: Select the data from 1 column
-
-
-##### Numpy Library
-Reference: http://www.numpy.org/
-NumPy is the fundamental package for scientific computing with Python. It contains among other things:
-
-a powerful N-dimensional array object
-sophisticated (broadcasting) functions
-tools for integrating C/C++ and Fortran code
-useful linear algebra, Fourier transform, and random number capabilities
-Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+   3. Need section of code 3: Third, select the data from 1 column
 
 
 #### Steps to solve Iris data set project:
 1. Research and copy the Iris data set
 2. Create a csv with the data
-3. Divide the data attending to the different type of flowers (removing the data from the other flowers)
+3. Keep only the data of aspecie (removing the data from the other flowers in the csv)
 4. Import numpy
 5. read the first flower data set into array (Setosa)
 6. Obtain the data from the first column: Setosa sepal length
@@ -238,14 +236,16 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
  *initiate ipython and try the commands in the terminal first, then copy the code into the python file
 
 
-##### Code to obtain the results
-  1. Get the mean using numpy
+#### Code to obtain the results
+
+  1. Get the mean using numpy with the function numpy.mean
 
   2. Print function 
   
-##### Optimization of the code
+#### Optimization of the code
 - Removed duplications importing the numpy library
 - Removed duplications reading files into array
+
 Approximately 20 lines of code removed
 
 ##### Results
@@ -255,10 +255,12 @@ Approximately 20 lines of code removed
 - Setosa petal length: 1.464
 - Setosa petal width: 0.244
 
+
 - Versicolor sepal length mean: 5.936
 - Versicolor sepal width: 2.77
 - Versicolor petal length: 4.26
 - Versicolor petal width: 1.326
+
 
 - Virginica sepal length mean: 6.588
 - Virginica sepal width: 2.974
@@ -267,19 +269,19 @@ Approximately 20 lines of code removed
 
 
 ## Analysis of results
+### Mean
+From these results setosa is be the variety with more differentiate parameters specially on the petal length and width. The petal width and length mean results can be used, as orientative numbers, to categorize the Iris setosa.
 
-From this results we can extract that setosa could be the variety with more differentiate parameters specially on the petal length and width. The petal width and length results could be used as an orientative number to categorize the Iris setosa.
+Versicolor and Virginica have similar mean for the sepal width. The Iris virginica has higher values in sepal length, petal length and petal width. These three measurements could help to differentiate virginica from versicolor.
 
-Versicolor and Virginica have similar mean for the sepal width. Except from the width, the Iris Virginica is higher in sepal length, petal length and petal width. These three measurements could help to differentiate Virginica from Versicolor.
-
-##### Graphics to see tendences
-Histograms from the 4 parameters 
+### Graphics to see tendences
+Histograms: Sepal and petal length, sepal and petal width
 
 Setosa sepal length        |  Versicolor sepal length  |  Virginica sepal length
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Setosa sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-sep-length-hist.png)  |  ![Versicolor sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-sep-length-hist.png)|  ![Virginica sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-sep-lenght-hist.png)
 
-As we can observe from the graphics, in terms of the sepal length most of the setosa samples are in a range between 4,6 and 5,5 cm while Versicolor and Virginica are between 5,3 and 7,3. This differentiation can be a key factor to clasificate the Iris setosa.
+As we can observe from the graphics, in terms of the sepal length the vast majrity of setosa samples are in a range between 4,6 and 5,5 cm while Versicolor and Virginica are between 5,3 and 7,3. This differentiation can be a key factor to clasificate the Iris setosa.
 
 Setosa sepal width       |  Versicolor sepal width  |  Virginica sepal width
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -291,21 +293,23 @@ Setosa petal length        |  Versicolor petal length  |  Virginica petal length
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-length.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-length-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-length-hist.png)
 
-Regarding the petal length, setosa has again the lowest numbers comprised between 1 and 1,9. Most of versicolor samples are between 3,8 and 5. while most of virginica ones starts around 4,7 to 6,3. 
+Regarding the petal length, setosa has again the lowest numbers comprised between 1 and 1,9 cm. Most of versicolor samples are between 3,8 and 5. while most of virginica ones starts around 4,7 to 6,3. 
 Thanks to the histograms a relevant difference can be appreciated between the three species. This difference in the petal length could help in the categorization of the Iris varieties.
 
 Setosa petal width        |  Versicolor petal width  |  Virginica petal width
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Setosa petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-pet-width-hist.png)  |  ![Versicolor petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-pet-width-hist.png)|  ![Virginica petal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-pet-width-hist.png)
 
-From this last measurement, the petal width we can extract another important conclusion, setosa is the smallest one with the values between 0,1 and 0,6, Versicolor would be the medium one with values between 1 and 1,8 and Virginica would be the bigger one with most of the values between 1,7 and 2,5.
+From this last measurement, the petal width another important conclusion can be extracted, setosa is the smallest one with all values between 0,1 and 0,6, versicolor is the medium one with values between 1 and 1,8 and virginica is the bigger one with most of the values between 1,7 and 2,5.
 
 ## Conclusion
-To conclude the analysis, from the histograms and the mean we can extract that a differentiation between the three species can be made due to the mean results of the histograms and specially because of the histograms.
+To conclude the analysis, from the histograms and the mean we can extract that a differentiation between at least two of the species can be made specially because of the graphical representation on the histograms. 
 
 From the mean analysis and the histograms, setosa would be the specie easier to categorise as it has very differentiative smaller petal length and width than the other species. Versiolor follows the scale attending to petal size, as it is the specie with medium values in both the sepal length and width. And finally, virginica is the specie with bigger values for both petal length and width.The sepals are similar in size, so it would be more relevant to identify the species attending to the petal than to the sepal.
 
 To sum up, the petal width can be taken as a valuable reference to differentiate the specie valuable: a specie could be classified as setosa if the measure is between 0,1 and 0,6 cm, versicolor between 1 and 1,8 and virginica between 1,7 and 2,5. If the number would be 1,7 or 1,8 the petal width could help in the classification: 3,8 - 5 virginica; 4,7 - 6,3 versicolor. Still if the second measurement were between 4,7 and 5, the differentiation between this two species is highly complex as the sepal results are very similar between both. 
+
+The results from the current analysis shows a correlation with Fisher study in concluding that the diagnosis of versicolor and virginica would be higly difficult based solely on these four measurements (even though these measurements can lead to a more complete discrimination)  while setosa could be differentiated from the other two species with the four measuremnts taken.
 
 ## Code conclusion
 Finally as a code conclusion of the analysis. It has been extremely useful to accomplish this analysis the numpy library and the matplotlib library. Numpy library because of the function getfromtxt function that allows to extract a column of the data and matplotlib because of the histogram function that shows the data graphically organized in bins.
