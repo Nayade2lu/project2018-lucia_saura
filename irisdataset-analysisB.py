@@ -103,4 +103,37 @@ pl.hist(thirdcol)
 pl.show()
 
 
+#Petal width------------------
+
+#Read setosa data file into array
+data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
+# show data from petal width setosa
+foucolm = data[:,3]
+#import the library matplot
+import matplotlib.pyplot as pl
+#create a histogram of petal width setosa
+pl.hist(foucolm)
+#showing the histogram
+pl.show()
+
+
+#Read virginica data file into array
+data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
+# show data from petal width virginica
+foucolm = data[:,3]
+
+import matplotlib.pyplot as pl
+pl.hist(foucolm)
+pl.show()
+
+
+#Read versicolor data file into array
+data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
+# show data from petal width versicolor
+foucolm = data[:,3]
+
+import matplotlib.pyplot as pl
+pl.hist(foucolm)
+pl.show()
+
 
