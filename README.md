@@ -4,6 +4,11 @@
 ![](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png)
 
 # IRIS DATASET
+ What contains the repository:
+ README: current file. Analysis development
+ irisdataset-analysis.py: Python file to calculate the mean of each parameter of each specie
+ irisdataset-analysisB.py : Python file to obtain histograms
+ png files: histograms images to link in the current README
 
 ## Plan: 
 
@@ -307,8 +312,10 @@ To sum up, the petal width can be taken as a valuable reference to diferentiate 
 ## Code conclusion
 Finally as a code conclusion of the analysis. It has been extremely useful to accomplish this analysis the numpy library and the matplotlib library. Numpy library because of the function getfromtxt function that allows to extract a column of the data and matplotlib because of the histogram function that shows the data graphicaly organized in bins.
 
+Highly valued also, the README style approach of inserting images into tables to align them in the same row.
 
-More references:
+
+### More references:
 Histograms:
 https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html;jsessionid=ff05bc250d1a965089cfe3ac40b2
 Histograms color:
@@ -340,7 +347,7 @@ SciPy:
 https://www.scipy.org/
 
 
-Notes: 
+### Notes: 
 1. Attempt to use library Datasets failed
    Error:
    ModuleNotFoundError: No module named 'datasets'
