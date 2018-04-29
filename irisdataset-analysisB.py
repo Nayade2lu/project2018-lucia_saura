@@ -5,7 +5,7 @@ import numpy
 #Read setosa data file into array
 data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
 # show data from sepal length setosa
-firstcol = data[:,2]
+firstcol = data[:,3]
 #import the library matplot
 import matplotlib.pyplot as pl
 #create a histogram of sepal lenght setosa
@@ -17,7 +17,7 @@ pl.show()
 #Read virginica data file into array
 data = numpy.genfromtxt('iris-data-set-virginica.csv', delimiter=',')
 # show data from sepal length virginica
-firstcol = data[:,2]
+firstcol = data[:,3]
 
 import matplotlib.pyplot as pl
 pl.hist(firstcol)
