@@ -133,7 +133,7 @@ data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
 foucolm = data[:,3]
 
 import matplotlib.pyplot as pl
-pl.hist(foucolm)
+pl.hist(foucolm,'FaceColor','g')
 pl.show()
 
 
