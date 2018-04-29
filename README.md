@@ -4,11 +4,11 @@
 ![](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png)
 
 # IRIS DATASET
- What contains the repository:
- README: current file. Analysis development
- irisdataset-analysis.py: Python file to calculate the mean of each parameter of each specie
- irisdataset-analysisB.py : Python file to obtain histograms
- png files: histograms images to link in the current README
+ What the repository contains:
+ - README: current file. Analysis development
+ - irisdataset-analysis.py: Python file to calculate the mean of each parameter of each specie
+ - irisdataset-analysisB.py : Python file to obtain histograms
+ - png files: histograms images to link in the current README
 
 ## Plan: 
 
