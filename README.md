@@ -248,7 +248,7 @@ The probability of achieving the project with Python is high due to the resource
 
 Approximately 20 lines of code removed
 
-##### Results
+#### Results
 
 - Setosa sepal length mean: 5.006
 - Setosa sepal width: 3.418
@@ -303,23 +303,28 @@ Setosa petal width        |  Versicolor petal width  |  Virginica petal width
 From this last measurement, the petal width another important conclusion can be extracted, setosa is the smallest one with all values between 0,1 and 0,6, versicolor is the medium one with values between 1 and 1,8 and virginica is the bigger one with most of the values between 1,7 and 2,5.
 
 ## Conclusion
-To conclude the analysis, from the histograms and the mean we can extract that a differentiation between at least two of the species can be made specially because of the graphical representation on the histograms. 
+To conclude the analysis, from the histograms and the mean a differentiation between at least two of the species can be made, specially because of the graphical representation on the histograms. 
 
-From the mean analysis and the histograms, setosa would be the specie easier to categorise as it has very differentiative smaller petal length and width than the other species. Versiolor follows the scale attending to petal size, as it is the specie with medium values in both the sepal length and width. And finally, virginica is the specie with bigger values for both petal length and width.The sepals are similar in size, so it would be more relevant to identify the species attending to the petal than to the sepal.
+From the mean analysis and the histograms, setosa would be the specie easier to categorise as it has very differentiative smaller petal length and width. Versiolor follows the scale attending to petal size, as it is the specie with medium values in both the petal length and width. And finally, virginica is the specie with bigger values for both petal length and width. 
 
-To sum up, the petal width can be taken as a valuable reference to differentiate the specie valuable: a specie could be classified as setosa if the measure is between 0,1 and 0,6 cm, versicolor between 1 and 1,8 and virginica between 1,7 and 2,5. If the number would be 1,7 or 1,8 the petal width could help in the classification: 3,8 - 5 virginica; 4,7 - 6,3 versicolor. Still if the second measurement were between 4,7 and 5, the differentiation between this two species is highly complex as the sepal results are very similar between both. 
+The sepals are too similar in size, so it's much more relevant to take in consideration the petal measurements to identify the species.
 
-The results from the current analysis shows a correlation with Fisher study in concluding that the diagnosis of versicolor and virginica would be higly difficult based solely on these four measurements (even though these measurements can lead to a more complete discrimination)  while setosa could be differentiated from the other two species with the four measuremnts taken.
+To sum up, the petal width can be taken as a valuable reference to differentiate the species: a flower could be classified as setosa if the petal width is between 0,1 and 0,6 cm, versicolor between 1 and 1,8 and virginica between 1,7 and 2,5. 
+
+If the number would be between 1,4 and 1,8 cm it could be questioned if the flower is virginica or versicolor as both have a lot of samples on that range. In that case, the petal width could help in the classification: 3,8 - 5 virginica; 4,7 - 6,3 versicolor. Still if petal width was between 4,5 and 5, the differentiation between this two species would be highly complex as the sepal results are very similar between both species and wouldn't help on the classification. 
+
+The results from the current analysis show a correlation with Fisher study in concluding that even though these measurements can lead to a more complete discrimination, the diagnosis of versicolor and virginica would be higly difficult based solely on these four measurements, while setosa could be differentiated from the other two species with the four measuremnts taken.
 
 ## Code conclusion
-Finally as a code conclusion of the analysis. It has been extremely useful to accomplish this analysis the numpy library and the matplotlib library. Numpy library because of the function getfromtxt function that allows to extract a column of the data and matplotlib because of the histogram function that shows the data graphically organized in bins.
+Finally, as a code conclusion of the analysis, it has been extremely useful the numpy library and the matplotlib library. 
+
+Numpy library because of the getfromtxt function that allows to extract a column of the data and matplotlib because of the histogram function that shows the data graphically organized in bins.
 
 Highly valued also, the README style approach of inserting images into tables to align them in the same row.
 
 
 ### More references:
-Histograms:
-https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html;jsessionid=ff05bc250d1a965089cfe3ac40b2
+Histograms:https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.histogram.html;jsessionid=ff05bc250d1a965089cfe3ac40b2
 
 Histograms color:
 https://stackoverflow.com/questions/23061657/plot-histogram-with-colors-taken-from-colormap
