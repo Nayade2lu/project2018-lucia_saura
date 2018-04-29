@@ -1,15 +1,18 @@
 #Lucia Saura
 #Based on code from https://stackoverflow.com/questions/23061657/plot-histogram-with-colors-taken-from-colormap
 
-
-
 import numpy
-import matplotlib as pl
-pl.hist(foucolm)
-#Read versicolor data file into array
-data = numpy.genfromtxt('iris-data-set-versicolor.csv', delimiter=',')
-# show data from petal width versicolor
+#Read setosa data file into array
+data = numpy.genfromtxt('iris-data-set-setosa.csv', delimiter=',')
+# show data from petal width setosa
 foucolm = data[:,3]
+#import the library matplot
+import matplotlib.pyplot as pl
+#create a histogram of petal width setosa
+pl.hist(foucolm)
+#showing the histogram
+pl.show()
+
 
 # This is  the colormap I'd like to use.
 cm = pl.cm.get_cmap('RdYlBu_r')
@@ -28,3 +31,4 @@ for c, p in zip(foucolm, patches):
 pl.show()
 
 
+# giving an attribute error AttributeError: 'NoneType' object has no attribute 'seq'
