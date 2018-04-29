@@ -252,21 +252,25 @@ Virginica sepal width: 2.974
 Virginica petal length: 5.552
 Virginica petal width: 2.026
 
-##### Graphics to see tendences
-Histograms from the 3 parametersof the three flowers
-
-Setosa sepal length        |  Versicolor sepal length  |  Virginica sepal length
-:-------------------------:|:-------------------------:|:-------------------------:
-![Setosa sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-sep-length-hist.png)  |  ![Versicolor sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-sep-length-hist.png)|  ![Virginica sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-sep-lenght-hist.png)
-
-In terms of the sepal length 
-
 
 ## Analysis of results
 
 From this results we can extract that setosa could be the variety with more diferentiate parameters specially on the petal length and width. The petal width and length results could be used as an orientative number to categorize the Iris setosa.
 
 Versicolor and Virginica have similar mean for the sepal width. Except from the width, the Iris Virginica is higher in sepal length, petl length and petal width. These three measurements could help to diferentiate Virginica from Versicolor.
+
+##### Graphics to see tendences
+Histograms from the 4 parameters 
+
+Setosa sepal length        |  Versicolor sepal length  |  Virginica sepal length
+:-------------------------:|:-------------------------:|:-------------------------:
+![Setosa sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-sep-length-hist.png)  |  ![Versicolor sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-sep-length-hist.png)|  ![Virginica sepal length](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-sep-lenght-hist.png)
+
+As we can observe from the grahics, in terms of the sepal length most of the setosa samples are in a range between 4,6 and 5,5 cm while Versicolor and Virginica are between 5,3 and 7,3. This differentiation can be a key factor to clasificate the Iris setosa.
+
+Setosa sepal width       |  Versicolor sepal width  |  Virginica sepal width
+:-------------------------:|:-------------------------:|:-------------------------:
+![Setosa sepal width](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-sep-width-hist.png)  |  ![Versicolor sepal width](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-sep-width-hist.png)|  ![Virginica sepal width](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-sep-width-hist.png)
 
 ## Conclusion
 Despite the previous analysis, the mean should be taken as an orientative parameter not as an absolute one in order to categorise the three varieties.
