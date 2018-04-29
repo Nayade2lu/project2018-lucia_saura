@@ -259,7 +259,7 @@ Setosa sepal length
 Versicolor sepal length
 ![](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-sep-length-hist.png)
 Virginica sepal length
-![](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Veirginica-sep-length-hist.png)
+![](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Virginica-sep-lenght-hist.png)
 
 
 ## Analysis of results
