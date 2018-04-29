@@ -256,10 +256,8 @@ Virginica petal width: 2.026
 Histograms from the 3 parametersof the three flowers
 Setosa sepal length
 ![](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Setosa-sep-length-hist.png)
-
 Versicolor sepal length
 ![](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Versicolor-sep-length-hist.png)
-
 Virginica sepal length
 ![](https://github.com/Nayade2lu/project2018-lucia_saura/blob/master/Veirginica-sep-length-hist.png)
 
